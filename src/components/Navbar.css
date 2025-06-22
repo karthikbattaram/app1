@@ -1,0 +1,29 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+  z-index: 10;
+}
+
+.nav-bar a {
+  color: #ff80ab;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-text {
+  font-size: 12px;
+  margin-top: 2px;
+}
