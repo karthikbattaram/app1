@@ -7,7 +7,7 @@ import Compliments from './pages/Compliments';
 // import LoveNotes from './pages/LoveNotes';
 import GiftShop from './pages/GiftShop';
 import AboutHer from './pages/AboutHer';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 
 export default function App() {
   const [isLocked, setIsLocked] = useState(localStorage.getItem('unlocked') !== 'true');
