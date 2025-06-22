@@ -5,7 +5,7 @@ import './Pages.css';
 export default function Lock({ onUnlock }: { onUnlock: () => void }) {
   const [input, setInput] = useState('');
   const navigate = useNavigate();
-  const SECRET = '143';
+  const SECRET = 'PrincessLovesYou';
 
   const handleUnlock = () => {
     if (input === SECRET) {
