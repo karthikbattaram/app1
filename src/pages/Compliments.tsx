@@ -28,7 +28,6 @@ const compliments = [
 
 ];
 
-const hiddenClue = "";
 
 export default function Compliments() {
   const [text, setText] = useState('');

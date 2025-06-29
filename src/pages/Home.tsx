@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import Confetti from 'react-confetti';
 import './Pages.css';
 
