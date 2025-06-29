@@ -37,6 +37,11 @@ const gifts = [
         "link": "https://www.myntra.com/eyeliner/swiss+beauty/swiss-beauty-waterproof-holographic-eyeliner-02-g---milky-way-01/26300320/buy"
     },
     {
+        "name": "The real surprise is here.",
+        "image": "https://images.meesho.com/images/products/232918855/5v8ep_512.webp",
+        "link": "https://drive.google.com/file/d/1vflG2WD-t-e5i3-KZLeACkuEx4-LsjZS/view?usp=sharing"
+      },
+    {
         "name": "Bag for the new mac you'll get",
         "image": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2024/AUGUST/14/Vanow11x_ade6fecdd0b041d8a07d3f807970a0d6.jpg",
         "link": "https://www.myntra.com/bags/allen-solly-woman/allen-solly-woman-up-to-18-inch-textured-laptop-bag/30578869/buy?utm_source=social_share_pdp&utm_medium=deeplink&utm_campaign=social_share_pdp_deeplink"
