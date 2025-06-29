@@ -28,13 +28,9 @@ const compliments = [
 
 ];
 
-const hiddenClue = "";
-
 export default function Compliments() {
   const [text, setText] = useState('');
   const [lastText, setLastText] = useState('');
-  const [count, setCount] = useState(0);
-  const [showHint, setShowHint] = useState(false);
 
   const handleClick = () => {
     let newText;
@@ -44,41 +40,15 @@ export default function Compliments() {
 
     setText(newText);
     setLastText(newText);
-
-    setCount((prev) => {
-      const newCount = prev + 1;
-      if (newCount >= 3 && Math.random() < 0.3) {
-        setShowHint(true);
-      }
-      return newCount;
-    });
   };
 
   return (
-    <div className="page full-center padded-center">
-      <div>
-        <h4>I don't know where I am now, but I am definitely thinking of you. Go ahead...</h4>
-        <button onClick={handleClick} className="button">
-          Press for Compliments and Thoughts
-        </button>
-
-        {text && <p className="compliment">{text}</p>}
-
-        {count >= 1 && !showHint && (
-          <p style={{ marginTop: '10px', color: '#aaa' }}>
-            🔍 Looking for your clue, Im glad you made it this far now... keep going!
-          </p>
-        )}
-
-        {showHint && (
-          <p className="compliment-text" style={{ marginTop: '20px', color: '#fdd' }}>
-            ✨ Here's your secret clue: <br/> Not wrapped in paper, not tied with a bow,<br/>
-But inside the shop, there’s something to show.<br/>
-It’s not like the rest, it’s quiet and true —<br/>
-Go find the gift that feels brand new.💌<br/>
-          </p>
-        )}
-      </div>
+    <div className="page">
+    <h4>I dont know where I am now but I am definitely thinking of you, go ahead...</h4>
+      <button onClick={handleClick} className="button">
+        Press for Compliments and Thoughts
+      </button>
+      {text && <p className="compliment">{text}</p>}
     </div>
   );
 }
