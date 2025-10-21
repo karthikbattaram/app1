@@ -34,12 +34,19 @@ export default function NavBar() {
           <span className="nav-text">Gifts</span>
         </div>
       </Link>
+      <Link to="/vault">
+        <div className="nav-item">
+          <span role="img" aria-label="gifts">🎁</span>
+          <span className="nav-text">Vault</span>
+        </div>
+      </Link>
       <Link to="/abouther">
         <div className="nav-item">
           <span role="img" aria-label="about">📊</span>
           <span className="nav-text">About</span>
         </div>
       </Link>
+      
     </nav>
   );
 }
