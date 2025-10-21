@@ -4,20 +4,20 @@ import './Pages.css';
 const compliments = [
   "You know how in the ocean there are pearls in oysters ones that look soo beautiful, thats what your eyes look like and you have two of them!!😳😳",
   "Just go to the nearest mirror I cant see you right now but just look at yourself, god you look so amazing!!💕",
-  "You know how when a shooting star crosses the sky, everyone makes a wish? I stopped wishing the day I met you — you’re the wish come true. 💕",
+  "You know how when a shooting star crosses the sky, everyone makes a wish? I stopped wishing the day I met you — you’re the wish come true. 💕 Heres a link: https://drive.google.com/file/d/1OkQuwk9CzXX6-uom0yVFHtLjfnIuUB9n/view?usp=drive_link",
   "I was looking at the night sky there was the moon and stars around and the clouds were covering the moon and moving around it looked beautiful, and I thought nice try still nowhere near as beautiful as my C.P.U!!😍😍",
   "I remember telling you this once life without you is black and white you are the shine that brings colour in my life and you light up every room from being so beautiful!!💖💖",
   "You know when autocorrect actually gets your sentence right on the first try? That’s how rare someone like you is.😊",
   "This is me right now: while(1) { fallForHer(); } 🧑‍💻🧑‍💻",
-  "You really are one of the strongest people I know, I really admire your strength and how amazing you are at life low times come but I want to cheer you on during those and celebrate the high times with you, you make me want to be a better person.🥰🥰",
+  "You really are one of the strongest people I know, I really admire your strength and how amazing you are at life low times come but I want to cheer you on during those and celebrate the high times with you, you make me want to be a better person.🥰🥰Heres a link: https://drive.google.com/file/d/1OkQuwk9CzXX6-uom0yVFHtLjfnIuUB9n/view?usp=drive_link",
   "You are not perfect, you are perfectly fucked up, too perfectly fucked up just know that you deserve to win and all the success that you want and theres this dumb fuck somewhere rooting for you, cheering you to do better and win😊😊",
   "Your smile is the most beautiful warm thing I have ever seen or experinced, so go ahead and smile I am smiling too somewhere thinking of you!🥰🥰",
   "I read this somewhere and it really stuck you are the best thing that happened to me ever someitmes I miss you so much it hurts I want to write \"I miss you\" on a rock and throw it at you to make you feel how much it hurts.🫣",
   "Whatever you are doing wherever you are, you got this you will always pull through you are my strong queen and I will always be rooting for you!!💖",
   "You know the best part of my day any day is when my phone rings and its ur call just that moment I feel se excited to see you, to hear your voice🫣🫣",
-  "You have the most beautiful voice I sometimes just get zoned out listening to your voice and cant pay attention to what you are saying😳😳",
-  "I wish you could see yourself through my eyes then maybe you wil understand how I feel about you because all the things I say and write are never enough💕💕",
-  "I love how smart you are, you are so good with money and just generally are street smart, I am so thankful for everything I got to learn and keep learning from you Ill never order food without a coupon now😉😉",
+  "You have the most beautiful voice I sometimes just get zoned out listening to your voice and cant pay attention to what you are saying😳😳Heres a link: https://drive.google.com/file/d/1OkQuwk9CzXX6-uom0yVFHtLjfnIuUB9n/view?usp=drive_link",
+  "I wish you could see yourself through my eyes then maybe you wil understand how I feel about you because all the things I say and write are never enough💕💕Heres a link: https://drive.google.com/file/d/1OkQuwk9CzXX6-uom0yVFHtLjfnIuUB9n/view?usp=drive_link",
+  "I love how smart you are, you are so good with money and just generally are street smart, I am so thankful for everything I got to learn and keep learning from you Ill never order food without a coupon now😉😉 Heres a link: https://drive.google.com/file/d/1OkQuwk9CzXX6-uom0yVFHtLjfnIuUB9n/view?usp=drive_link",
   "God I wish you could see your smile once just go to the mirror and smile once for me and see how beautiful you are💖💖",
   "Every message you send after some silence is the best feeling ever better tham any high and any feeling🫣🫣",
   "I miss you so much all the time, all I want is to spend time with you just to hear your voice💕",
@@ -65,16 +65,13 @@ export default function Compliments() {
 
         {count >= 1 && !showHint && (
           <p style={{ marginTop: '10px', color: '#aaa' }}>
-            🔍 Looking for your clue, Im glad you made it this far now... keep going!
+            🔍 What you are looking for might be hidden here or in the next one... keep going!
           </p>
         )}
 
         {showHint && (
           <p className="compliment-text" style={{ marginTop: '20px', color: '#fdd' }}>
-            ✨ Here's your secret clue: <br/> Not wrapped in paper, not tied with a bow,<br/>
-But inside the shop, there’s something to show.<br/>
-It’s not like the rest, it’s quiet and true —<br/>
-Go find the gift that feels brand new.💌<br/>
+            <br/>
           </p>
         )}
       </div>

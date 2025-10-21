@@ -10,12 +10,16 @@ export default function Home() {
 
   const questions = [
     {
-      prompt: "I have four wheels, no engine. Cary you through long days of doing absolutely nothing and your boyfriend is not allowed to forget about me, what am I?",
-      answer: "wheelchair"
+      prompt: "A land of bargains, chaos, and cheer, where every “just one” turns to ten, my dear. Clothes so cheap, we lose control — what’s this place that steals our soul?",
+      answer: "venky"
     },
     {
-      prompt: "He folds logic into spirals.Doubts come easy, even when love is loud.He trusts you. He just debates with his own head.What’s this mental sport?",
-      answer: "overthinking"
+      prompt: "When your thoughts go morbid morbid and life feels like a tragic show, what’s the first thing he does to try and make you glow?",
+      answer: "crack a joke"
+    },
+    {
+      prompt: "Of all the rental cars, some cars were fast, some made us late, but which one was perfect for our quiet fate?",
+      answer: "ertiga"
     }
   ];
 
@@ -41,8 +45,8 @@ export default function Home() {
       {showConfetti && <Confetti />}
       <div className="page home full-center padded-center">
         <div className="clue-box">
-          <h1>🎂 Happy Birthday C.P.U 💖</h1>
-          <p>It kinda kills me I cant do this in person, but this is not just a page — it's the start of a little treasure hunt curated just for you.</p>
+          <h1>Happy Anniversary 💖</h1>
+          <p>I wish I could do this in person once, but lets goo your treasure hunt starts here.</p>
           <p>Answer each question to unlock what comes next 💌</p>
           <br />
           {step < 3 ? (
@@ -61,14 +65,11 @@ export default function Home() {
             </>
           ) : (
             <>
-              <h2>🎉 You did it! Smartass</h2>
-              <p>Solve this to unlock the next step.... 😉<br/>
-              <b>Some pages show pictures.<br/>
-Some pages tell stories.<br/>
-One page? It tells you — who you are, through my eyes.<br/>
-Go there.<br/>
+              <h2>🎉 Oho aapke ghutne kaafi tez nikle 😁😁</h2>
+              <b>Ab go read some compliments<br/>
+kabhi kabhi sweet words ke beech mein bhi<br/>
+kuch secrets chhupe hote hain 😘<br/>
 </b>
-              </p>
             </>
           )}
         </div>

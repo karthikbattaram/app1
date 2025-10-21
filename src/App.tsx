@@ -8,6 +8,7 @@ import Compliments from './pages/Compliments';
 import GiftShop from './pages/GiftShop';
 import AboutHer from './pages/AboutHer';
 import NavBar from './components/Navbar';
+import Vault from './pages/vault';
 
 export default function App() {
   const [isLocked, setIsLocked] = useState(localStorage.getItem('unlocked') !== 'true');
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/compliments" element={<Compliments />} />
         <Route path="/giftshop" element={<GiftShop />} />
         <Route path="/abouther" element={<AboutHer />} />
+        <Route path="/vault" element={<Vault />} />
       </Routes>
     </>
   );
